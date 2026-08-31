@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Supawit Chairat</title>
+    <meta name="description" content="Professional portfolio of a DII CAMT Student">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="gradient-text">Portfolio.</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#development">Self-Development</a></li>
+                <!-- <li><a href="#awards">Awards</a></li> -->
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile / Hero Section -->
+    <header id="profile" class="section hero-section">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <p class="greeting">Hello, I am</p>
+                <h1 class="name">Supawit Chairat</h1>
+                <h2 class="role gradient-text">Digital Industry Integration</h2>
+                <h3 class="university">College of Arts, Media and Technology (CAMT)</h3>
+                <p class="bio">
+                    Digital Industry Integration student at CAMT, CMU, with a passion for software development and
+                    technical problem-solving. Through hackathons and my role as a TA, I’ve sharpened my coding,
+                    teamwork, and communication skills. I am eager to apply my potential and grow further in a
+                    professional development environment.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/Supawit-C" class="social-icon" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="#contact" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="hero-cta">
+                    <a href="#experience" class="btn btn-primary">View My Work</a>
+                    <a href="Resume_supawit_682110195.pdf" download="Resume_Supawit.pdf" target="_blank"
+                        class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper reveal delay-1">
+                <div class="hero-image glass-card">
+                    <!-- Placeholder image -->
+                    <img src="IMG_6995.JPG" alt="Profile Picture" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Professional <span class="gradient-text">Experience</span></h2>
+
+            <div class="timeline" id="experience-container">
+                <!-- Experience items will be loaded dynamically from data.json via script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Self-Development Section -->
+    <section id="development" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title reveal">Self-<span class="gradient-text">Development</span></h2>
+            <p class="section-subtitle reveal">Continuous learning through courses, bootcamps, and certifications.</p>
+
+            <div class="grid-container" id="development-container">
+                <!-- Development items will be loaded dynamically from data.json via script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Achievements Section -->
+    <!-- <section id="awards" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Awards & <span class="gradient-text">Achievements</span></h2>
+
+            <div class="grid-container grid-2" id="awards-container">
+        </div>
+    </section> -->
+
+    <!-- Leadership & Volunteer Section -->
+    <section id="leadership" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title reveal">Leadership, Volunteer & <span class="gradient-text">Part-Time</span></h2>
+
+            <div class="timeline" id="leadership-container">
+                <!-- Leadership items will be loaded dynamically from data.json via script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Get in <span class="gradient-text">Touch</span></h2>
+            <div class="grid-container grid-2" style="max-width: 800px; margin: 0 auto;">
+                <!-- Email Contact Card -->
+                <a href="mailto:supawitchairat@gmail.com" class="glass-card link-card reveal"
+                    style="text-align: center; padding: 3rem 2rem; display: block;">
+                    <div style="font-size: 3rem; color: var(--accent-1); margin-bottom: 1.5rem;"><i
+                            class="fas fa-envelope"></i></div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text-primary);">Email Me</h3>
+                    <p style="font-size: 1.1rem; color: var(--text-secondary); margin: 0;">supawitchairat@gmail.com</p>
+                </a>
+
+                <!-- Phone Contact Card -->
+                <a href="tel:+66931602570" class="glass-card link-card reveal delay-1"
+                    style="text-align: center; padding: 3rem 2rem; display: block;">
+                    <div style="font-size: 3rem; color: var(--accent-1); margin-bottom: 1.5rem;"><i
+                            class="fas fa-phone-alt"></i></div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text-primary);">Call Me</h3>
+                    <p style="font-size: 1.1rem; color: var(--text-secondary); margin: 0;">+66 93 160 2570</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo"><span class="gradient-text">Portfolio.</span></div>
+            <p>&copy; <span id="current-year"></span> Supawit Chaitat. All rights reserved.</p>
+            <div class="social-links footer-socials">
+                <a href="https://github.com/Supawit-C" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>

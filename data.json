@@ -1,0 +1,123 @@
+{
+  "awards": [
+    {
+      "year": "2024",
+      "title": "First Prize in Hackathon",
+      "level": "National Level",
+      "description": "Awarded for developing an innovative AI solution for agriculture.",
+      "icon": "fa-trophy",
+      "images": [],
+      "delay": ""
+    },
+    {
+      "year": "2023",
+      "title": "Outstanding Academic Performance",
+      "level": "University Level",
+      "description": "Maintained a top 5% GPA while actively participating in university clubs.",
+      "icon": "fa-medal",
+      "images": [],
+      "delay": "delay-1"
+    }
+  ],
+  "experience": [
+    {
+      "date": "2025",
+      "title": "HYLIFE HACKATHON 2025 CODE FOR CHANGE (AGRILINK)",
+      "company_desc": "Agrilink is a smart agriculture platform designed to enhance transparency in the Thai agricultural market by directly connecting farmers with buyers. The platform integrates AI, IoT, and QR code technologies to enable easy traceability of product origins, along with cold chain management systems that help reduce post-harvest losses by over 30%.",
+      "tags": [
+        "Frontend",
+        "UX/UI"
+      ],
+      "images": [
+        "photo/Agrilink/agrilink_01.png",
+        "photo/Agrilink/agrilink_02.png"
+      ],
+      "delay": ""
+    },
+    {
+      "date": "2025",
+      "title": "PROJECT LOCAL SHOP (BANMAEHOINGERN SCHOOL)",
+      "company_desc": "Local Shop is a digital platform that enables schools to easily create their own online storefront to showcase products and pricing. The solution is designed to allow direct communication between buyers and sellers, helping reduce gaps in the trading process and minimizing reliance on intermediaries.",
+      "tags": [
+        "Frontend",
+        "UX/UI"
+      ],
+      "images": [
+        "photo/local shop/localshop_01.jpg",
+        "photo/local shop/8.jpg"
+      ],
+      "delay": "delay-1"
+    },
+    {
+      "date": "2025",
+      "title": "PROJECT MANAGER (SMART CITY PROJECT MAERAM)",
+      "company_desc": "The core system was developed on the municipality’s Line Official Account platform and includes several key features. These include an hourly water level alert system that sends immediate notifications when water levels exceed predefined thresholds, with data sourced from both manual input by officials and an image processing system developed by the team. The platform also provides water level history visualization, displaying hourly data through a web interface alongside real-time water level information. In addition, the system functions as a gateway that integrates the municipality’s existing complaint and general request systems into the Line Official Account, enhancing accessibility and convenience for citizens.",
+      "tags": [
+        "project manager",
+        "Frontend",
+        "UX/UI"
+      ],
+      "images": [
+        "photo/smart city/smartcity_03.png"
+      ],
+      "delay": "delay-2"
+    }
+  ],
+  "leadership": [
+    {
+      "date": "2025",
+      "title": "TEACHING ASSISTANT (TA) IN THE CODING & AI ACCELERATION PROGRAM FOR UPPER NORTHERN THAILAND, UNDER THE CODING THAILAND 2025: AI DRIVEN FUTURE",
+      "company": "",
+      "details": [
+        "RESPONSIBILITIES INCLUDED ASSISTING INSTRUCTORS IN TEACHING CAMP PARTICIPANTS AND COORDINATING BETWEEN LECTURERS AND STAFF MEMBERS",
+        "THROUGH THIS EXPERIENCE, I DEVELOPED STRONG SOFT SKILLS, PARTICULARLY IN COMMUNICATION, EFFECTIVE KNOWLEDGE DELIVERY SUITED TO LEARNERS, TEAMWORK, AND COORDINATION. THIS EXPERIENCE WAS VALUABLE AND CAN BE APPLIED TO FUTURE ACADEMIC AND PROFESSIONAL SETTINGS.."
+      ],
+      "images": [
+        "photo/code thai/codethai_02.jpg",
+        "photo/code thai/codethai_01.jpg"
+      ],
+      "delay": ""
+    }
+  ],
+  "development": [
+    {
+      "title": "UX/UI Foundation Program",
+      "issuer": "CAMT and T.C.C. Technology Co., Ltd.",
+      "description": "Completed an intensive 4-day UX/UI training program integrated within the User-Centered Interface and Experience Design course. Guided by the Co-Founder of UX Academy Thailand, I acquired practical knowledge in digital product design, user-centered methodologies, and systematic design workflows. Developed a strong competency in translating user insights into seamless user experiences, enhancing my foundational skills for frontend development and interface design.",
+      "date": "",
+      "icon": "fa-certificate",
+      "link": "",
+      "images": [
+        "photo/ux:ui tcc/uxui_01.jpg",
+        "photo/ux:ui tcc/uxui_03.JPG"
+      ],
+      "delay": ""
+    },
+    {
+      "title": "Data Storytelling & Dashboard Design",
+      "issuer": "DII CAMT x Zygen",
+      "description": "Participated in an intensive workshop organized by CAMT, CMU, and Zygen Co., Ltd. Acquired hands-on knowledge in data analysis, dashboard design, and business data communication from senior industry consultants. Developed key competencies in transforming complex data into actionable visual insights, establishing a strong foundation for professional internships and future roles in the digital industry.",
+      "date": "",
+      "icon": "fa-laptop-code",
+      "link": "",
+      "images": [
+        "photo/Data Storytelling/data_01.jpg",
+        "photo/Data Storytelling/data_02.jpg"
+      ],
+      "delay": "delay-1"
+    },
+    {
+      "title": "Skills4life",
+      "issuer": "Chiang mai University Lifelong",
+      "description": "A comprehensive course focused on strengthening leadership capabilities and teamwork. Designed to improve interpersonal communication and the ability to work effectively with others in professional settings",
+      "date": "",
+      "icon": "fa-book-reader",
+      "link": "link certificate",
+      "images": [
+        "photo/skills4life/18.png",
+        "photo/skills4life/17.png"
+      ],
+      "delay": "delay-2"
+    }
+  ]
+}
